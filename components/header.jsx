@@ -28,7 +28,11 @@ export default async function Header() {
         <Link href="/">
           <Image
             src={"/logo.png"}
+<<<<<<< HEAD
             alt="Sensai Logo"
+=======
+            alt="CareerElevate Logo"
+>>>>>>> 5e0396bcc159e93fdb97d6d835dfc4a285b027a2
             width={200}
             height={60}
             className="h-12 py-1 w-auto object-contain"
@@ -60,14 +64,23 @@ export default async function Header() {
                   <ChevronDown className="h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
+<<<<<<< HEAD
               <DropdownMenuContent align="end" className="w-48">
                 <DropdownMenuItem asChild>
+=======
+            <DropdownMenuContent align="end" className="w-48">
+                  <DropdownMenuItem asChild>
+>>>>>>> 5e0396bcc159e93fdb97d6d835dfc4a285b027a2
                   <Link href="/resume" className="flex items-center gap-2">
                     <FileText className="h-4 w-4" />
                     Build Resume
                   </Link>
                 </DropdownMenuItem>
+<<<<<<< HEAD
                 <DropdownMenuItem asChild>
+=======
+               <DropdownMenuItem asChild>
+>>>>>>> 5e0396bcc159e93fdb97d6d835dfc4a285b027a2
                   <Link
                     href="/ai-cover-letter"
                     className="flex items-center gap-2"

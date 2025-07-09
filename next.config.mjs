@@ -3,6 +3,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
+<<<<<<< HEAD
         protocol: 'https',
         hostname: 'randomuser.me'
       }
@@ -17,3 +18,13 @@ const nextConfig = {
 }
 
 export default nextConfig
+=======
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
+    ],
+  },
+};
+
+export default nextConfig;
+>>>>>>> 5e0396bcc159e93fdb97d6d835dfc4a285b027a2
